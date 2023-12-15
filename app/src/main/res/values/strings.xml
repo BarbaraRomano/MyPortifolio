@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">meuPortifolio</string>
+    <string name="txtDescricao">
+
+Leonardo Campos é um desenvolvedor Android sênior com uma paixão inigualável pela criação de experiências digitais inovadora.Com mais de uma década de experiência no desenvolvimento de aplicativos móveis, ela traz consigo um profundo entendimento do ecossistema Android e uma dedicação incansável à excelência técnica.
+\n\n<b><font color='#BC2525'>Habilidades:</font></b>
+\nDesenvolvimento Android:\nEspecialista em Kotlin, Leonardo possui uma profunda compreensão do desenvolvimento Android nativo, entregando aplicativos robustos e eficientes.
+\n\nArquitetura de Software:\nExperiente na implementação de arquiteturas modernas como MVVM, Clean Architecture e Jetpack Compose, garantindo código modular e de fácil manutenção.\n\nTestes Automatizados:\nFirme defensor da qualidade do software, Leonardo implementa testes automatizados de unidade
+e UI para garantir a estabilidade e a confiabilidade de cada aplicativo.
+\n\nMentoria e Liderança Técnica:\nAlém de suas habilidades técnicas, Leonardo destaca-se como mentor, compartilhando conhecimento e orientando equipes para alcançarem seu melhor desempenho.
+    </string>
+    <string name="txtNome">Leonardo Campos</string>
+    <string name="projetos">Projetos</string>
+    <string name="contato">Contato</string>
+    <string name="contatos">Contatos</string>
+    <string name="txtCelular">+55(11)99999-5555</string>
+    <string name="txtMail">contato@stackmobile.com.br</string>
+</resources>

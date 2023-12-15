@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Projetos">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolBarProjetos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="@drawable/baseline_arrow_back_24"
+        app:title="@string/projetos"
+        app:titleTextColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/imgBarb"
+        android:layout_width="90sp"
+        android:layout_height="90dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/projeto_barbearia"
+        app:layout_constraintTop_toBottomOf="@+id/toolBarProjetos"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Projeto barbearia"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="35dp"
+        app:layout_constraintStart_toEndOf="@+id/imgBarb"
+        app:layout_constraintTop_toBottomOf="@+id/toolBarProjetos"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detalhes do projeto"
+        android:backgroundTint="@color/red"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="70dp"
+        app:layout_constraintStart_toEndOf="@+id/imgBarb"
+        app:layout_constraintTop_toBottomOf="@+id/toolBarProjetos"/>
+
+    <ImageView
+        android:id="@+id/imgMarc"
+        android:layout_width="90sp"
+        android:layout_height="90dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/projeto_marcenaria"
+        app:layout_constraintTop_toBottomOf="@+id/imgBarb"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Projeto marcenaria"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="30dp"
+        app:layout_constraintStart_toEndOf="@+id/imgMarc"
+        app:layout_constraintTop_toBottomOf="@+id/imgBarb"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detalhes do projeto"
+        android:backgroundTint="@color/red"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="70dp"
+        app:layout_constraintStart_toEndOf="@+id/imgMarc"
+        app:layout_constraintTop_toBottomOf="@+id/imgBarb"/>
+
+    <ImageView
+        android:id="@+id/imgPiz"
+        android:layout_width="90sp"
+        android:layout_height="90dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/projeto_pizzaria"
+        app:layout_constraintTop_toBottomOf="@+id/imgMarc"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Projeto pizzaria"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="40dp"
+        app:layout_constraintStart_toEndOf="@+id/imgPiz"
+        app:layout_constraintTop_toBottomOf="@+id/imgMarc"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detalhes do projeto"
+        android:backgroundTint="@color/red"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="70dp"
+        app:layout_constraintStart_toEndOf="@+id/imgPiz"
+        app:layout_constraintTop_toBottomOf="@+id/imgMarc"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
